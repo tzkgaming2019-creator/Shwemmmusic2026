@@ -7,7 +7,7 @@ def botplaylist_markup(_):
     buttons = [
         [
             InlineKeyboardButton(text=_["S_B_9"], url=SUPPORT_CHAT),
-            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
+            InlineKeyboardButton(text=_["💞Love Group💞"], url="https://t.me/myanmar_music_Bot2027"),
         ],
     ]
     return buttons
@@ -18,11 +18,11 @@ def close_markup(_):
         [
             [
                  InlineKeyboardButton(
-                text="🥀 ꜱᴜᴘᴘᴏʀᴛ 🥀", url=f"https://t.me/BRANDED_WORLD"
+                text="🥀 ꜱᴜᴘᴘᴏʀᴛ 🥀", url=f"https://t.me/myanmar_music_Bot2027"
             ),
                 InlineKeyboardButton(
-                    text=_["CLOSE_BUTTON"],
-                    callback_data="close",
+                    text=_["ပျော်ရွင်ခြင်း (shwemm)"],
+                    url="https://t.me/Shwemm_happybot?start=start",
                 ),
             ]
         ]
